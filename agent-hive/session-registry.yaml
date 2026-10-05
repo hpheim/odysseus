@@ -1,0 +1,35 @@
+sessions:
+  - id: session_01PeUaM17bs3PP8DhHTZXFTH
+    title: "UDM Pro VPN configuration"
+    lane: "UDM Pro VPN / remote access"
+    repo: hpheim/odysseus
+    branch: claude/udm-pro-vpn-config-l2xxzz
+    status: decommissioned
+    decommissioned: "2026-10-05"
+    work_landed:
+      - infrastructure-docs/SESSION-CONSOLIDATION-LEDGER.md
+      - infrastructure-docs/UDM-PRO-VPN-RUNBOOK.md
+      - infrastructure-docs/LANE-ROLLUP.md
+      - agent-hive/session-registry.yaml
+      - infrastructure-docs/SESSION-DECOMMISSION-udmpro.md
+
+  - id: session_012oicHyiGj6vFDyPXFFXLP5
+    title: "WiFi Pineapple VPN relay setup"
+    lane: "WiFi Pineapple VPN relay"
+    repo: hpheim/WiFi-pineapple-dev
+    branch: claude/wifi-pineapple-vpn-relay-u39ohf
+    status: archived
+    archived: "2026-08-10"
+    work_landed:
+      - "PR #1 squash-merged 2026-10-05 (PineVPN engine, webpanel, module, installer, docs)"
+
+  - id: session_019vJtk3kodG7tjMAgjdq5W3
+    title: "Watchfire threat reports token optimization"
+    lane: "Watchfire token optimization"
+    repo: "hpheim/Watch-fire-threat-landscape-report-Claude-API-token-utilization.-"
+    branch: claude/watchfire-token-optimization-1n8pnv
+    status: archived
+    archived: "2026-08-10"
+    work_landed:
+      - "PR #1 merged (pipeline)"
+      - "PR #2 squash-merged 2026-10-05 (normalize, style contract, docs, decommission record)"
